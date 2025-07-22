@@ -27,7 +27,7 @@ int main () {
     printf ("carta 1: \n\n");
 
     printf("Digite o estado: ");
-    scanf (" %c", &estado);
+    scanf (" %s", &estado);
 
     printf ("Digite o código da carta: ");
     scanf ("%s", codigo);
@@ -38,10 +38,10 @@ int main () {
     printf ("Digite a população: ");
     scanf ("%d" , &população);
 
-    printf ("Digite a área: ");
+    printf ("Digite a área em km²: ");
     scanf ("%f", &área);
 
-    printf ("Digite o PIB: ");
+    printf ("Digite o PIB em Bilhões: ");
     scanf ("%f", &pib);
 
     printf ("Digite a quantidade de pontos turísticos: ");
@@ -53,8 +53,8 @@ int main () {
     printf ("carta 2: \n\n");
 
 
-    printf("Digite o estado: ");
-    scanf (" %c", &estado1);
+    printf ("Digite o estado: ");
+    scanf (" %s", &estado1);
 
     printf ("Digite o código da carta: ");
     scanf ("%s", codigo1);
@@ -65,10 +65,10 @@ int main () {
     printf ("Digite a população: ");
     scanf ("%d" , &população1);
 
-    printf ("Digite a área: ");
+    printf ("Digite a área em km²: ");
     scanf ("%f", &área1);
 
-    printf ("Digite o PIB: ");
+    printf ("Digite o PIB em Bihões ");
     scanf ("%f", &pib1);
 
     printf ("Digite a quantidade de pontos turísticos: ");
